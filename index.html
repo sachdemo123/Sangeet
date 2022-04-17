@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce7469c918.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+</head>
+
+
+<body>
+    <header class="header_top">
+        <nav class="nav_top">
+            <div class="tit">
+                <a href="">Sangeet</a>
+            </div>
+
+            <ul>
+                <li><a href="">Music</a></li>
+                <li><a href="">Podcast</a></li>
+                <li><a href="">Live</a></li>
+                <li><a href="">Radio</a></li>
+            </ul>
+            <div class="user">
+                <form action="">
+                    <input type="text" placeholder="search song,artist,playlist">
+                </form>
+
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-bell"></i>
+
+
+                <div class="avatar" id="user-saurabh">
+                    <img src="https://hrcdn.net/s3_pub/hr-avatars/8f00ac8e-b829-4a2e-8f07-41cc0c6d734c/150x150.png"
+                        alt=""><a href="https://github.com/saurabh-kud"></a>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+        <div class="left">
+            <div class="nav_slider">
+                <ul class="ul_list">
+                    <li class="list"><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-star"></i>Top</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-user"></i>Artist</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-compact-disc"></i>Artist</a></li>
+                    <li><small>Discover</small></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-arrow-trend-up"></i></i>Trending in India</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-user-group"></i></i>Popular Artist</a></li>
+
+                    <li><small>Collection</small></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-heart"></i></i>Favorite Song</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-heart"></i></i>Romantic</a></li>
+                    <li><small>General</small></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-gear"></i></i>Setting</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-circle-question"></i>Support</a></li>
+                    <li class="list"><a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></i>Logout</a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="middle">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "pageDots": false }'>
+                <img src="image/slider-1.webp" alt="" class="gallery-cell">
+                <img src="image/slider-2.webp" alt="" class="gallery-cell">
+                <img src="image/slider-3.webp" alt="" class="gallery-cell">
+            </div>
+            <div class="popular">
+                <div class="info">
+                    <h3>Popular</h3>
+                    <a href="">See more</a>
+                </div>
+                <div class="music_section">
+                    <div class="card">
+                        <img src="./image/jubin.png" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class="duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                    <div class="card">
+                        <img src="./image/Pushpa.webp" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class="duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                    <div class="card">
+                        <img src="./image/excuse.webp" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class="duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                    <div class="card">
+                        <img src="./image/mast-najro-se.webp" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class="duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                    <div class="card">
+                        <img src="./image/Shershaah.webp" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class="duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                    <div class="card">
+                        <img src="./image/meh.webp" alt="">
+                        <a href="">Romantic Hits B...</a>
+                        <h3 class=" duration"><small>Jubin Nautiyal</small> </h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="popular weekly">
+                <div class="info">
+                    <h3>Weekly Top 10</h3>
+                    <a href="">See more</a>
+                </div>
+                <div class="music_list">
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>01</h2>
+                            <img src="./image/excuse.webp" alt="">
+                            <div class="details">
+                                <h3>Excuse</h3>
+                                <h5>AP Dilhon</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>02</h2>
+                            <img src="./image/meh.webp" alt="">
+                            <div class="details">
+                                <h3>Mehrama</h3>
+                                <h5>Pritam</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>03</h2>
+                            <img src="./image/mast-najro-se.webp" alt="">
+                            <div class="details">
+                                <h3>Mast Najron Se</h3>
+                                <h5>Jubin Nautiyal</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>04</h2>
+                            <img src="./image/Shershaah.webp" alt="">
+                            <div class="details">
+                                <h3>Shershaah</h3>
+                                <h5>Tanishk Bagchi</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>05</h2>
+                            <img src="./image/Pushpa.webp" alt="">
+                            <div class="details">
+                                <h3>Pushpa The Rise</h3>
+                                <h5>Devi Sri Prasad</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>06</h2>
+                            <img src="./image/udd.webp" alt="">
+                            <div class="details">
+                                <h3>Ud Ja Kale Kawaan</h3>
+                                <h5>Amandeep Singh</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>07</h2>
+                            <img src="./image/agent-vinod.webp" alt="">
+                            <div class="details">
+                                <h3>Raabta</h3>
+                                <h5>Arijit Singh</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>08</h2>
+                            <img src="./image/kesri.webp" alt="">
+                            <div class="details">
+                                <h3>Keshri</h3>
+                                <h5>Tanishk Bagchi</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>09</h2>
+                            <img src="./image/love.webp" alt="">
+                            <div class="details">
+                                <h3>Love Aaj Kal</h3>
+                                <h5>Pritam</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+                    <div class="week_card">
+                        <div class="week_details">
+                            <h2>10</h2>
+                            <img src="./image/half.webp" alt="">
+                            <div class="details">
+                                <h3>Half Girlfriend</h3>
+                                <h5>
+                                    Tanishk Bagchi</h5>
+
+                            </div>
+                        </div>
+                        <div class="week_right">...</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="right">
+            <div class="right_slider">
+                <div class="info">
+                    <h3>Recently placed</h3>
+                    <a href="">View history</a>
+                </div>
+                <div class="music">
+                    <div class="left_part">
+                        <img src="./image/excuse.webp" alt="">
+                        <div class="details">
+                            <h3>Excuse</h3>
+                            <h5>AP Dilhon</h5>
+
+                        </div>
+                    </div>
+                    <div class="duration">
+                        3:40
+                    </div>
+
+                </div>
+
+                <div class="music">
+                    <div class="left_part">
+                        <img src="./image/udd.webp" alt="">
+                        <div class="details">
+                            <h3>Ud Ja Kale Kawaan</h3>
+                            <h5>Amandeep Singh</h5>
+
+                        </div>
+                    </div>
+                    <div class="duration">
+                        5:00
+                    </div>
+
+                </div>
+                <div class="music">
+                    <div class="left_part">
+                        <img src="./image/meh.webp" alt="">
+                        <div class="details">
+                            <h3>Mehrama</h3>
+                            <h5>Pritam</h5>
+
+                        </div>
+                    </div>
+                    <div class="duration">
+                        2:50
+                    </div>
+
+                </div>
+                <div class="music">
+                    <div class="left_part">
+                        <img src="./image/mast-najro-se.webp" alt="">
+                        <div class="details">
+                            <h3>Mast Najron Se</h3>
+                            <h5>jubin Nautiyal</h5>
+
+                        </div>
+                    </div>
+                    <div class="duration">
+                        3:00
+                    </div>
+
+                </div>
+                <div class="music">
+                    <div class="left_part">
+                        <img src="./image/Shershaah.webp" alt="">
+                        <div class="details">
+                            <h3>Shershaah</h3>
+                            <h5>Tanishk</h5>
+
+                        </div>
+                    </div>
+                    <div class="duration">
+                        4:00
+                    </div>
+
+                </div>
+                <div class="info">
+                    <h3>Popular artists</h3>
+                    <a href="">See more</a>
+                </div>
+                <div class="artist_wrapper">
+                    <div class="artis_details">
+                        <img src="./image/pritam.webp" alt="">
+                        <span>Pritam</span>
+                    </div>
+                    <div class="artis_details">
+                        <img src="./image/mohit.webp" alt="">
+                        <span>Mohit chauhan</span>
+                    </div>
+                    <div class="artis_details">
+                        <img src="./image/neha.webp" alt="">
+                        <span>Neha Kakkar</span>
+                    </div>
+                </div>
+                <div class="artist_wrapper">
+                    <div class="artis_details">
+                        <img src="./image/jubin-av.webp" alt="">
+                        <span>Jubin Nautiyal</span>
+                    </div>
+                    <div class="artis_details">
+                        <img src="./image/b.webp" alt="">
+                        <span>B Parag</span>
+                    </div>
+                    <div class="artis_details">
+                        <img src="https://hrcdn.net/s3_pub/hr-avatars/8f00ac8e-b829-4a2e-8f07-41cc0c6d734c/150x150.png"
+                            alt="">
+                        <span>Saurabh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //for playing -->
+    <div class="player  no_show" id="player">
+        <div class="player_container">
+            <div class="player_info">
+                <img src="./image/excuse.webp" alt="">
+                <div class="details">
+                    <h3>Excuse</h3>
+                    <audio id="audio" src="./music/src_music_bon-jovi-its-my-life.mp3" id="audio"></audio>
+                    <h5>Ap Dilhon</h5>
+                </div>
+            </div>
+            <div class="control">
+                <div class="forward">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="play" id="play_btn"><i id="play_icon" class="fa-solid fa-pause"></i> </div>
+
+                <div class="next"><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+            <div class="sound un_muted" id="sound_btn">
+                <div class="volume "><i id="sound_status" class="fa-solid fa-volume-high"></i></div>
+            </div>
+        </div>
+        <div class="close" id="close"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
